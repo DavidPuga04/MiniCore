@@ -1,0 +1,88 @@
+# ==========================
+# PYTHON / DJANGO
+# ==========================
+
+__pycache__/
+*.py[cod]
+*$py.class
+
+*.sqlite3
+
+db.sqlite3
+
+*.log
+
+.env
+.env.*
+
+venv/
+env/
+ENV/
+
+# Django static files
+staticfiles/
+
+# Django media files
+media/
+
+# ==========================
+# DJANGO MIGRATIONS
+# ==========================
+
+# Si deseas subir las migraciones elimina estas líneas
+# Normalmente SÍ se suben en proyectos reales
+
+# **/migrations/
+# !**/migrations/__init__.py
+
+# ==========================
+# VS CODE
+# ==========================
+
+.vscode/
+
+# ==========================
+# PYCHARM
+# ==========================
+
+.idea/
+
+# ==========================
+# NODE / REACT / VITE
+# ==========================
+
+node_modules/
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+dist/
+build/
+
+# ==========================
+# MACOS
+# ==========================
+
+.DS_Store
+
+# ==========================
+# WINDOWS
+# ==========================
+
+Thumbs.db
+Desktop.ini
+
+# ==========================
+# TESTS / COVERAGE
+# ==========================
+
+.coverage
+htmlcov/
+.pytest_cache/
+
+# ==========================
+# VITE
+# ==========================
+
+vite.svg
