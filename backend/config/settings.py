@@ -26,7 +26,9 @@ SECRET_KEY = os.environ.get("SECRET_KEY", "django-dev-key")
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ["*"]
+ALLOWED_HOSTS = [
+    "minicore-backend-vl7w.onrender.com",
+]
 
 
 # Application definition
